@@ -204,7 +204,7 @@ const FooterContainer = styled.h3`
 
 
 const Copyright = styled.p`
-    width: 1592px;
+    width: 3000px;
     height: 93px;
    
 
