@@ -7,9 +7,11 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+
 const Container = styled.div`
     display: flex;
     Background-color: #F2F8FC;
+    margin-bottom:0;
 
 `
 const Left = styled.div`
@@ -57,7 +59,7 @@ const Location = styled.div`
 
 `
 const Email = styled.div`
-    margin-left:230px;
+    margin: 16px 0 3px 230px;
 
 
 `
@@ -84,16 +86,7 @@ const SocialIcon = styled.div`
 
 `
 
-const Input = styled.h3`
-    width: 532px;
-    height: 45px;
-    left: 830px;
-    top: 4063px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
-    border-radius: 5px;
 
-`
 const Join = styled.a`
     width: 36px;
     height: 23px;
@@ -113,6 +106,7 @@ const Join = styled.a`
 `
 
 const LogoRight = styled.h1`
+    width:387px;
     height:38px;
     font-family: 'Poppins';
     font-style: normal;
@@ -123,15 +117,62 @@ const LogoRight = styled.h1`
 
 `
 const Newsletter = styled.h1`
-    display:flex;
-    align-items:center;
+    width:50%;
+    background-color:white;
+    display:;flex;
+    aligh-items:center;
+    justify-content: center;
+    flex-direction:column;
+`
+
+const NewsTitle = styled.div`
+    
+`
+
+
+const NewsDescription = styled.h1`
+    
 
 `
+const InputContainer = styled.div`
+    width:532px;
+    height:45px;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    
+`
+
+const Input = styled.input`
+    border:none;
+    flex:10;
+    padding-left:20px;
+
+`
+
+const Button = styled.button`
+    flex:2;
+    background-color:white;
+    color:Black
+    border:1px solid white;
+   
+    
+`
+
+
+
 
 
 const TitleShop = styled.h3`
     margin-bottom:30px;
-
+    Width: 55px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    cursor:pointer;
 `
 
 const ListShop = styled.ul`
@@ -156,7 +197,15 @@ const ListItem = styled.li`
 
 
 const TitleHelp = styled.h3`
-
+    width: 47px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+    cursor:pointer;
 `
 
 const ListHelp = styled.ul`
@@ -166,7 +215,15 @@ const ListHelp = styled.ul`
 `
 
 const TitleAbout = styled.h3`
-
+    width: 69px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+    cursor:pointer;
 `
 
 const ListAbout = styled.ul`
@@ -199,7 +256,7 @@ const FooterContainer = styled.h3`
     flex: 1;
     justify-content:space-between;
     align-items:center;
-    width:100%;
+    width:70%;
 `
 
 
@@ -275,13 +332,16 @@ const Footer = () => {
                 <LogoRight>RECEIVE EMAIL UPDATES</LogoRight>
                 
                 <Newsletter>
-                    <Input>
-                        <input type="text" placeholder='Enter Your Email'></input>
-                    </Input>
-
-                    <Join>
-                        <button>Join</button>
-                    </Join>
+                    <NewsTitle></NewsTitle>
+                    <NewsDescription></NewsDescription>
+                    <InputContainer>
+                        <Input placeholder='Your Email Address Here'/>
+                        <Button>
+                            
+                            Join
+                            
+                        </Button>
+                    </InputContainer>
                 </Newsletter>
                 
     <FooterContainer>
@@ -298,7 +358,7 @@ const Footer = () => {
             </EnclosureShop>
 
             <EnclosureHelp>
-                <TitleHelp>Help</TitleHelp>   
+                <TitleHelp>HELP</TitleHelp>   
                     <ListHelp>
                         <ListItem>FAQ</ListItem>
                         <ListItem>Privacy Policies</ListItem>
@@ -340,51 +400,35 @@ export default Footer
 
 
 /*
-  <Title>SHOP</Title>
-
-
-                <Lists>
-                        <ListItem>Shop</ListItem>
-                        <ListItem>Collection</ListItem>
-                        <ListItem>Outlet</ListItem>
-                        <ListItem>LookBook</ListItem>
-                </Lists>
-
-                    <Title1>HELP</Title1>
-                const Title1 = styled.h4`
+  <LogoRight>RECEIVE EMAIL UPDATES</LogoRight>
                 
-                
-                `
+                <Newsletter>
+                    <Input>
+                        <input type="text" placeholder='Enter Your Email'></input>
+                    </Input>
 
-                const Title1 = styled.h4`
-                
-                
-                `
-
-                const
-
-                <Lists1>
-                        <ListItem>FAQ</ListItem>
-                        <ListItem>Privacy Policies</ListItem>
-                        <ListItem>Terms and Conditions</ListItem>
-                        <ListItem>Return & Exchanges</ListItem>
-                        <ListItem>ABOUT</ListItem>
-                </Lists1>
+                    <Join>
+                        <button>Join</button>
+                    </Join>
+                </Newsletter>
 
 
-                <Title2>ABOUT Us</Title2>
+            const Input = styled.h3`
+    width: 532px;
+    height: 45px;
+    left: 830px;
+    top: 4063px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
 
-                const Title2 = styled.h4`
-                
-                
-                `
+`
 
-                <Lists2>
-                        <ListItem>Journal</ListItem>
-                        <ListItem>Our Story</ListItem>
-                        <ListItem>Contact</ListItem>
-                        <ListItem>Store Location</ListItem>
-                </Lists2>
+
+
 
 
 */
+
+
+
