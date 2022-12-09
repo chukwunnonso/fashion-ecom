@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
 height: 60px;
@@ -83,15 +84,18 @@ const MenuItem = styled.div`
 `
 
 
+
 const Navbar = () => {
   return (
     <Container>
         <Wrapper>
             <Left><Logo>TRACE</Logo></Left>
             <Center>
-                        <MenuItem href="#"> <a href='#'>HOME</a></MenuItem>
-                        <MenuItem href="#">SHOP</MenuItem>
-                        <MenuItem href="#">LOOKBOOK</MenuItem>
+                        <MenuItem ><Link to='/'>HOME</Link></MenuItem>
+                        <MenuItem ><Link to='/productlist'>SHOP</Link></MenuItem>
+                        <MenuItem ><Link to='/checkout'>CHECKOUT</Link></MenuItem>
+                        {/* <MenuItem to='/ProductsList'>SHOP</MenuItem>
+                        <MenuItem to='/checkout'>HOME</MenuItem> */}
                 
             </Center>
             <Right>

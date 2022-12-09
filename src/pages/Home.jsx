@@ -6,6 +6,8 @@ import ImageSection from '../components/LandingPage/ImageSection'
 import WomenFashion from '../components/LandingPage/WomenFashion'
 import MenFashion from '../components/LandingPage/MenFashion'
 import BottomHero from '../components/LandingPage/BottomHero'
+//import Products from '../components/Products'
+import ProductList from './ProductList'
 
 const Home = () => {
   return (

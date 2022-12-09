@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import ProductList from './pages/ProductList'
 import Checkout from './pages/Checkout'
+import './App.css';
 
 const App = () => {
   return (
