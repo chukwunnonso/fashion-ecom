@@ -4,7 +4,9 @@ module.exports = {
   content: [
     './src/components/LandingPage/HeaderHero.jsx',
     './src/components/LandingPage/ImageSection.jsx',
-    './src/components/LandingPage/WomenFashion.jsx'
+    './src/components/LandingPage/WomenFashion.jsx',
+    './src/components/LandingPage/BottomHero.jsx',
+    './src/components/LandingPage/'
   ],
   theme: {
     extend: {},
