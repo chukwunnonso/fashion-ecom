@@ -28,9 +28,15 @@ padding:20px;
 
 `
 const Logo = styled.h1`
-margin-left:230px;
-
-
+    margin-left:230px;
+    width: 83px;
+    height: 38px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #22262A;
 `
 
 
@@ -38,8 +44,6 @@ const Desc = styled.p`
     margin: 20px 0px;
     width: 406px;
     height: 69px;
-    left: 228px;
-    top: 4056px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -57,16 +61,36 @@ const Location = styled.div`
     justify-content:space-between;
     margin-left:230px;
     width:56%;
-
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
 `
 const Email = styled.div`
     margin: 16px 0 3px 230px;
-
-
+    width: 237px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
 `
 const Mobile = styled.div`
     margin-left:230px;
-
+    width: 96px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    margin-top:4px;
 `
 const SocialContainer = styled.div`
     display:flex;
@@ -115,6 +139,7 @@ const LogoRight = styled.h1`
     font-size: 25px;
     line-height: 38px;
     color: #22262A;
+    margin-bottom:24px;
 
 `
 const Newsletter = styled.h1`
@@ -124,6 +149,7 @@ const Newsletter = styled.h1`
     aligh-items:center;
     justify-content: center;
     flex-direction:column;
+    margin-bottom:81px;
 `
 
 const NewsTitle = styled.div`
@@ -165,7 +191,7 @@ const Button = styled.button`
 
 
 const TitleShop = styled.h3`
-    margin-bottom:30px;
+    margin-bottom:27px;
     Width: 55px;
     height: 30px;
     font-family: 'Poppins';
@@ -185,7 +211,7 @@ const ListShop = styled.ul`
 
 const ListItem = styled.li`
     
-    margin-bottom:10px;
+    margin-bottom:21px;
     padding:0;
     font-family: 'Poppins';
     font-style: normal;
@@ -207,6 +233,7 @@ const TitleHelp = styled.h3`
     line-height: 30px;
     color: #22262A;
     cursor:pointer;
+    margin-bottom:27px;
 `
 
 const ListHelp = styled.ul`
@@ -225,6 +252,7 @@ const TitleAbout = styled.h3`
     line-height: 30px;
     color: #22262A;
     cursor:pointer;
+    margin-bottom:27px;
 `
 
 const ListAbout = styled.ul`
@@ -284,6 +312,7 @@ const FooterCopy = styled.div`
     line-height: 22px;
     margin-left: 577px;
     padding:35px 35px;
+    
 
 
 

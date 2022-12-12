@@ -23,6 +23,17 @@ const Left = styled.div`
 
 const Logo = styled.h1`
     font-weight:bold;
+    width: 92px;
+    height: 43.04px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #22262A;
+    margin-left:88px;
+
+
 
 `
 
@@ -52,8 +63,8 @@ const ShoppingCart = styled.div`
     display:flex;
     align-items:center;
     justify-content: space-between;
-    margin-left: 25px;
     padding: 5px;
+    
 `
 
 
@@ -67,6 +78,8 @@ const Center = styled.div`
     display:flex;
     align-items:center;
     justify-content: space-between;
+    width: 254px;
+    height: 27.67px;
 `;
 
 const Right = styled.div`
@@ -74,13 +87,22 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    width: 148px;
+    height: 18.45px;
+    margin:25px 75px 25px 461px;
+
 `;
 
 const MenuItem = styled.div`
     font-size:14px;
     cursor:pointer;
     display:flex;
-
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
 `
 
 

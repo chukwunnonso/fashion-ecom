@@ -15,16 +15,3 @@ const BottomHero = () => {
 }
 
 export default BottomHero
-
-//  import React from "react";
-//  import image from "../../assets/hero-bottom.png"
-// const BottomHero = () => {
-//          return(
-//             <div className="relative">
-//                 <img src={image} alt="dummy-image" className="w-full" />
-//                 <button class="absolute top-0 bg-blue-500 text-white p-2 rounded hover:bg-blue-800 m-2">Button</button>
-//             </div>
-
-//          )
-//      }
-// export default BottomHero
