@@ -12,6 +12,7 @@ const Container = styled.div`
     display: flex;
     Background-color: #F2F8FC;
     margin-bottom:0;
+    padding-top: 4em;
 
 `
 const Left = styled.div`
@@ -289,7 +290,7 @@ const FooterContainer = styled.h3`
 
 
 const Copyright = styled.p`
-    width: 3000px;
+    width: 100%;
     height: 93px;
    
 
