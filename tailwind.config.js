@@ -6,7 +6,8 @@ module.exports = {
     './src/components/LandingPage/ImageSection.jsx',
     './src/components/LandingPage/WomenFashion.jsx',
     './src/components/LandingPage/BottomHero.jsx',
-    './src/components/LandingPage/'
+    './src/components/LandingPage/',
+    './src/pages/',
   ],
   theme: {
     extend: {},

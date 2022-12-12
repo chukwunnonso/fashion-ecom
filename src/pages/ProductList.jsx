@@ -1,23 +1,6 @@
-// import React from "react";
-
-// const ProductList = () => {
-//     return(
-//         <div>
-//             ProductList
-//         </div>
-//     )
-// }
-
-// export default ProductList
-
-
-
-///////Let me write styling below
-
-
-
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useContext} from 'react'
 import '../App.css';
+import CartContext from './CartCheckout';
 //import { json } from 'react-router-dom';
 
 const ProductList = () => {
@@ -36,8 +19,9 @@ const ProductList = () => {
         //console.log(jsonData);
         setFake(jsonData);
     }
-    //fakeStore();
-    //https://fakestoreapi.com/products
+
+    const { addToCart } = useContext(CartContext);
+
   return (
     <>
     <div className='product-container'>
@@ -50,7 +34,10 @@ const ProductList = () => {
                     <p className='product-p'>{values.description}</p>
                     </div>
                     <img className='product-image' src={values.image}/>
-                      <h5 className='product-h5'>{values.price}</h5>
+                      <h5 className='product-h5'>${values.price}</h5>
+                    <div className='flex flex-row justify-center mt-5'>
+                        <button className='text-black p-2 bg-white rounded-lg' onClick={addToCart}>Add to Cart</button>
+                    </div>
                 </div>    
                 
                 </>
