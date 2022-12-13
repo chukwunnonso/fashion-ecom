@@ -7,7 +7,8 @@ module.exports = {
     './src/components/LandingPage/WomenFashion.jsx',
     './src/components/LandingPage/BottomHero.jsx',
     './src/components/LandingPage/',
-    './src/pages/',
+    './src/pages/ProductList.jsx',
+    './src/pages/CartCheckout.jsx',
   ],
   theme: {
     extend: {},
