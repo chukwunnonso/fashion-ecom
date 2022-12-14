@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import ProductList from './pages/ProductList';
 import {Routes, Route} from 'react-router-dom';
 import CartCheckout from './pages/CartCheckout';
+import Payment from './pages/Payment';
 import './App.css';
 
 export const ProductContext = createContext(null);;
@@ -18,6 +19,7 @@ export const App = () => {
             <Route path='/' element={<Home/>}   />
             <Route path='/productlist' element={<ProductList/>} />
             <Route path='/checkout' element={<CartCheckout/>} />
+            <Route path='checkout/payment' element={<Payment/>} />
         </Routes>
       </div>
     </ProductContext.Provider>

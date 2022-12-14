@@ -41,7 +41,7 @@ const ProductList = () => {
                             <p className='product-p'>{values.description}</p>
                         </div>
                         <img className='product-image' src={values.image}/>
-                        <h5 className='product-h5'>${values.price}</h5>
+                        <h5 className='product-h5'>NGN {values.price}</h5>
                         <div className='flex flex-row justify-center mt-5'>
                             <button 
                             className='text-black p-2 bg-white rounded-lg' 

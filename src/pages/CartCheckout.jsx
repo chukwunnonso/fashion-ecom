@@ -1,6 +1,9 @@
 import React, { useContext, useState } from 'react';
 import Navbar from '../components/Navbar';
 import { ProductContext } from '../App';
+import { Link } from 'react-router-dom';
+
+export let quantity = 0
 
 const CartCheckout = () => {
   const {options, setOptions} = useContext(ProductContext);
@@ -18,8 +21,6 @@ const CartCheckout = () => {
       cart.push({ ...option, quantity: 1 });
     }
   }
-
-  let quantity = 0
 
   console.log(cart);
   return(
@@ -43,18 +44,17 @@ const CartCheckout = () => {
           return(            
                 <tr>
                   <td className='text-left'>{item.title}</td>
-                  <td className='text-center'>${item.price}</td>
+                  <td className='text-center'>NGN {item.price}</td>
                   <td className='text-center'>{item.quantity}</td>
-                  <td className='text-center'>${total}</td>
+                  <td className='text-center'>NGN {total}</td>
                 </tr>
           )
         })}
-        
         </tbody>
         </table>
-        <div className="">
-          Grand Total = <span className='font-bold' >${quantity}</span>
-          <button className='bg-black text-white px-3 py-2 rounded-lg hover:px-4 hover:py-3 m-10'>Checkout</button>
+        <div className="text-center mt-10">
+          Grand Total = <span className='font-bold' >NGN {quantity}</span>
+          <Link to={'/checkout/payment'} className='bg-black text-white px-3 py-2 rounded-lg hover:px-4 hover:py-3 m-10'>Checkout</Link> 
         </div>
       </div>
       </div>
