@@ -18,7 +18,8 @@ const Home = () => {
         <WomenFashion/>
         <MenFashion/>
         <BottomHero/>
-        <Footer/>        
+        <Footer/>
+        
     </div>
   )
 }
