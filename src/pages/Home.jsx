@@ -11,7 +11,7 @@ import ProductList from './ProductList'
 
 const Home = () => {
   return (
-    <div className='container xl:w-1440'>
+    <div className='xl:w-1440'>
         <Navbar/>
         <HeaderHero/>
         <ImageSection/>

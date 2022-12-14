@@ -13,7 +13,6 @@ const Container = styled.div`
     Background-color: #F2F8FC;
     margin-bottom:0;
     padding-top: 4em;
-
 `
 const Left = styled.div`
     flex:1;
