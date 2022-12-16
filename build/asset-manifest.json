@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b56009eb.css",
+    "main.js": "/static/js/main.7ad60c32.js",
+    "static/media/hero-bottom.png": "/static/media/hero-bottom.51144bb957081ccd1164.png",
+    "static/media/Hero-top.png": "/static/media/Hero-top.65926b1a17dacce97b26.png",
+    "static/media/male2.png": "/static/media/male2.31cb06473ff6efc1d97b.png",
+    "static/media/male1.png": "/static/media/male1.bf7c9432f65bb7a89162.png",
+    "static/media/man1.png": "/static/media/man1.1e565171e99d21b7fc75.png",
+    "static/media/woman4.png": "/static/media/woman4.b8a1742e77d435286ba7.png",
+    "static/media/woman3.png": "/static/media/woman3.18b7d095d5a38246fa01.png",
+    "static/media/man3.png": "/static/media/man3.fb69a00eff3e3bb6714d.png",
+    "static/media/woman1.png": "/static/media/woman1.278b2dae821cc2938454.png",
+    "static/media/man4.png": "/static/media/man4.368825ff753f88eb9d14.png",
+    "static/media/man2.png": "/static/media/man2.fdc8c212c34c263e67cc.png",
+    "static/media/woman2.png": "/static/media/woman2.e9726edaa5ad386cb749.png",
+    "static/media/female2.png": "/static/media/female2.620a95a88daf4b89a6a3.png",
+    "static/media/female1.png": "/static/media/female1.08de98c5a9404392d55a.png",
+    "index.html": "/index.html",
+    "main.b56009eb.css.map": "/static/css/main.b56009eb.css.map",
+    "main.7ad60c32.js.map": "/static/js/main.7ad60c32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b56009eb.css",
+    "static/js/main.7ad60c32.js"
+  ]
+}

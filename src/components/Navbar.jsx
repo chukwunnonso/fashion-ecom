@@ -4,10 +4,12 @@ import SearchIcon from '@material-ui/icons/Search';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { Link } from 'react-router-dom';
+import { mobile } from '../responsive';
+
 
 const Container = styled.div`
-height: 60px;
-Background-color: #FFF;
+    height: 60px;
+    ${mobile({ backgroundColor: "green" })}
 `
 
 const Wrapper = styled.div`
