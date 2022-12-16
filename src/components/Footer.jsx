@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import GpsFixedOutlinedIcon from '@mui/icons-material/GpsFixedOutlined';
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GpsFixedOutlinedIcon from '@material-ui/icons/GpsFixedOutlined';
+import FacebookOutlinedIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 
 const Container = styled.div`
