@@ -3,6 +3,8 @@ import { quantity } from "./CartCheckout";
 import { PaystackButton } from 'react-paystack'
 import { ProductContext } from "../App";
 import '../components/Payment.css'
+import { Link } from "react-router-dom";
+import Home from "./Home";
 
 const Payment = () => {
     const publicKey = "pk_test_c623732d3f39b66bb4f3c725d1902d7a0adf4652"
@@ -36,6 +38,7 @@ const Payment = () => {
 
     return(
       <div className="checkoutApp">
+        <Link to='/' className="home">Home</Link>
             <div className="container">
             <div className="item">
                 <div className="overlay-effect"></div>
