@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import SearchIcon from '@material-ui/icons/Search';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
+// import SearchIcon from '@material-ui/icons/Search';
+// import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+// import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { Link } from 'react-router-dom';
 import { mobile } from '../responsive';
+
+import { AiOutlineSearch } from "react-icons/ai";
+import { BsHeart } from "react-icons/bs";
+import { BsCart3 } from "react-icons/bs";
 
 
 const Container = styled.div`
@@ -57,6 +61,7 @@ const Favorite = styled.div`
     align-items:center;
     justify-content: space-between;
     margin-left: 25px;
+    margin-right: 25px;
     padding: 5px;
 `
 
@@ -124,13 +129,13 @@ const Navbar = () => {
             </Center>
             <Right>
                 <SearchContainer>
-                    <SearchIcon/>
+                    <AiOutlineSearch/>
                 </SearchContainer>
                 <Favorite>
-                    <FavoriteBorderIcon/>
+                    <BsHeart/>
                 </Favorite>
                 <ShoppingCart>
-                    <ShoppingCartOutlinedIcon/>
+                    <BsCart3/>
                 </ShoppingCart>
             </Right>
         </Wrapper>
@@ -140,20 +145,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-
-
-/**
- 
-<Center>
-                <ul>
-                    <li>
-                        <a href="#">HOME</a>
-                        <a href="#">SHOP</a>
-                        <a href="#">LOOKBOOK</a>
-                    </li>
-                </ul>
-                
-            </Center>
- */
