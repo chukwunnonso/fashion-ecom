@@ -1,11 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import GpsFixedOutlinedIcon from '@material-ui/icons/GpsFixedOutlined';
-import FacebookOutlinedIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import GpsFixedOutlinedIcon from '@material-ui/icons/GpsFixedOutlined';
+// import FacebookOutlinedIcon from '@material-ui/icons/Facebook';
+// import InstagramIcon from '@material-ui/icons/Instagram';
+// import TwitterIcon from '@material-ui/icons/Twitter';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
+import { MdGpsFixed } from "react-icons/md";
+import { BsFacebook } from "react-icons/bs";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { FaTwitter } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 
 const Container = styled.div`
@@ -335,7 +341,8 @@ const Footer = () => {
                 success!
                 </Desc>
                 <Location>
-                    <GpsFixedOutlinedIcon/>
+                    {/* <GpsFixedOutlinedIcon/> */}
+                    <MdGpsFixed/>
                     <p>Comilla, Bangladesh 3500</p>
                 </Location>
                 <Email>kawsarahmed0210@gmail.com</Email>
@@ -343,16 +350,20 @@ const Footer = () => {
                 
                 <SocialContainer>
                         <SocialIcon>
-                            <FacebookOutlinedIcon />
+                            <BsFacebook/>
+                            {/* <FacebookOutlinedIcon /> */}
                         </SocialIcon>
                         <SocialIcon>
-                            <InstagramIcon />                
+                            <AiOutlineInstagram/>
+                            {/* <InstagramIcon />                 */}
                         </SocialIcon>
                         <SocialIcon>
-                            <TwitterIcon />
+                            <FaTwitter/>
+                            {/* <TwitterIcon /> */}
                         </SocialIcon>
                         <SocialIcon>
-                            <LinkedInIcon />
+                            <BsLinkedin/>
+                            {/* <LinkedInIcon /> */}
                         </SocialIcon>
                 </SocialContainer>
             </Left>

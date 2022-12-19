@@ -7,6 +7,7 @@ module.exports = {
     './src/components/LandingPage/WomenFashion.jsx',
     './src/components/LandingPage/MenFashion.jsx',
     './src/components/LandingPage/BottomHero.jsx',
+    './src/components/Navbar.jsx',
     './src/components/LandingPage/',
     './src/pages/ProductList.jsx',
     './src/pages/Home.jsx',

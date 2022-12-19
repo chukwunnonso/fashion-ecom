@@ -9,7 +9,7 @@ const ImageSection = () => {
         <div className="flex lg:flex-row flex-col justify-center mt-5">
             <div className="">{/*Class w-full, make central */}
                 <img className="m-3" src={male1} />
-                <div className="flex flex-row">
+                <div className="flex lg:flex-row flex-col">
                     <img className="m-3" src={female1} />
                     <img className="m-3" src={female2} />
                 </div>
