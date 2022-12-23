@@ -47,6 +47,20 @@ const CartCheckout = () => {
                   <td className='text-center'>NGN {item.price}</td>
                   <td className='text-center'>{item.quantity}</td>
                   <td className='text-center'>NGN {total}</td>
+                  <td className='text-center'>
+                    <button 
+                    className='bg-black text-white px-3 py-2 rounded-lg hover:px-4'
+                    onClick={() => {
+                      if(item.quantity > 0) {
+                        item.quantity -= 1;
+                      }
+                      if(item.quantity === 0) {
+                        // Remove item from cart
+                      }
+                    }}>
+                      Remove Item
+                    </button>
+                  </td>
                 </tr>
           )
         })}
