@@ -44,7 +44,7 @@ const ProductList = () => {
                         <h5 className='product-h5'>NGN {values.price}</h5>
                         <div className='flex flex-row justify-center mt-5'>
                             <button 
-                            className='text-black p-2 bg-white rounded-lg hover:px-3' 
+                            className='text-white p-2 bg-black rounded-lg hover:px-3' 
                             onClick={() => {setOptions([{
                                             id: values.id,
                                             title: values.title,
